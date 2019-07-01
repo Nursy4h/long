@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+#os.system("xdg-opn https://api.wha.com/send?phone=+&text=Ha")
