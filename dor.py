@@ -35,7 +35,7 @@ for line in file:
                 'infotoken' 'true'
                 }
                 req = requests.post('example', data=req_data)
-                                    rc = req.content
+                                    hrc = req.content
                                     if '"message": "Success"' in src:
 				valid = open('reportsuccess.txt', 'a+')
 				valid.write('[+] [ ' + email + ':' + password + ' ] => [ + VALID + ] \n')
