@@ -24,7 +24,7 @@ count = 0
 for line in file:
         # ---------------- # Enter Data Now # ---------- #
         line = line.strip()
-        count + 1 =
+        acount+1=
         accss = line()
         chk_accss_req_data = '{checkacss"}'
         chk_acss_data = requests.post('https://www.facebook.com/Example/', data=chk_accss_req_data, headers=report_email_now_headers)
