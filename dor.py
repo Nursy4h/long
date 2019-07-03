@@ -19,12 +19,12 @@ print''
 # -------------- ## Export Data ## --------------------- #
 file = open(list,'r').readlines()
 list_accss = str(len(file))
-print ' Your List Access Token Number [MR]> ' .format(y1) + list_accss + '\n'
+print ' Your List Access Number [MR]> ' .format(y1) + list_accss + '\n'
 count = 0
 for line in file:
         # ---------------- # Enter Data Now # ---------- #
         line = line.strip()
-        acount+1 =
+        acount+1 
         accss = line()
         chk_accss_req_data = '{checkacss"}'
         chk_acss_data = requests.post('https://www.facebook.com/Example/', data=chk_accss_req_data, headers=report_email_now_headers)
