@@ -31,7 +31,7 @@ for line in file:
         if 'accss is unsuccessfully' in chk_accss_req_data.content:
                 req_data = {
                 'per': 'true'
-                'accss' accs,
+                'accss':'accss'
                 'infotoken': 'true'
                 }
                 req = requests.post('example', data=req_data)
