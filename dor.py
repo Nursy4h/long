@@ -32,7 +32,7 @@ for line in file:
                 req_data = {
                 'per': 'true'
                 'accss''accss'
-                'infotoken': 'true'
+                'infotoken' 'true'
                 }
                 req = requests.post('example', data=req_data)
                                     src = req.content
