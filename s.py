@@ -10,6 +10,24 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+("clear")
+
+GL = "\033[96;1m" # Blue aqua
+BB = "\033[34;1m" # Blue light
+YY = "\033[33;1m" # Yellow light
+GG = "\033[32;1m" # Green light
+WW = "\033[0;1m"  # White light
+RR = "\033[31;1m" # Red light
+CC = "\033[36;1m" # Cyan light
+B = "\033[34m"    # Blue
+Y = "\033[33;1m"    # Yellow
+G = "\033[32m"    # Green
+W = "\033[0;1m"     # White
+R = "\033[31m"    # Red
+
+import random
+import sys
+import time
 
 def keluar():
     print '\x1b[1;91m[!] Keluar'
