@@ -119,7 +119,7 @@ def pil():
 def edit_wordlist():
 
         print GG+" "
-        ed = str(raw_input("[?] Edit wordlist cuk.? \033[96;1m[y/n]: "))
+        ed = str(raw_input("[?] Edit AMMO cuk.? \033[96;1m[y/n]: "))
         if ed == 'y' or ed == 'Y':
                 os.system('nano '+password_list)
                 pil()
