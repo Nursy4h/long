@@ -91,7 +91,7 @@ def banner():
     print GG+"(¯`·.¸¸.·´¯`·.¸¸.-¯`·.¸¸.·´¯`·.¸¸.·.¸¸.·´¯`·.¸¸.->"
     print GG+"                        ___________           "
     print GL+"         I{•------»     <FB SNIPER>     »------•{I| "
-    print GL+".                  SIAP MEMAKAIN SENJATA")
+    print GL+".                  SIAP MEMAKAIN SENJATA "
 banner()
 
 print wd+"         Bidik dengan bener "
